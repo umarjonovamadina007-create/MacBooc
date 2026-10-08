@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #004047;
+    color: white;
+}
+
+
+
+header {
+    padding: 30px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header b {
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+button {
+    padding: 10px 22px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.abo{
+    padding: 70px 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.abo h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.abo p {
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+
+
+.tea{
+    background-color: #00383d;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+
+.bonan h2 {
+    font-size: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cards div {
+    background-color: #002f34;
+    width: 230px;
+    padding: 30px;
+}
+
+.cards h3 {
+    margin-bottom: 5px;
+}
+
+
+
+.bonan {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.bonan p {
+    word-spacing: 20px;
+}
+
+
+
+.goo {
+    background-color: #f77b7d;
+    color: #073b3f;
+    padding: 40px 18%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goo button {
+    color: #073b3f;
+    border-color: #073b3f;
+}
+
+
+footer {
+    padding: 30px 12%;
+    font-size: 25px;
+}
